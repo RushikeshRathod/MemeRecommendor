@@ -1,8 +1,0 @@
-#!/bin/bash
-clear
-echo "Good morning, world."
-i=0
-for f in *; do
-mv "$f" "$i.png"
-((i++))
-done

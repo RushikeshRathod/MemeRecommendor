@@ -17,10 +17,10 @@ def index_kartik(request):
             temp=item
     template = get_template("index.html")
     list_1=[]
-    for i in range(0,2):
+    for i in range(0,20):
         temp=[]
         base="http://bighome.iitb.ac.in/~150110029/memes/"
-        extension=random.randint(1,2)
+        extension=random.randint(1,150)
         temp.append(extension)
         url_1=base+str(extension)+".png"
         temp.append(url_1)
@@ -68,7 +68,7 @@ def update_kartik(request):
     l.append(b_0)
     l.append(b_1)
     '''
-    for i in range(1,3):
+    for i in range(1,21):
         meme_no="meme_no_"+str(i)
         l.append(request.POST[meme_no])
         l.append(request.POST[str(i)])
