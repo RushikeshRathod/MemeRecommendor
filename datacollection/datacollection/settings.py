@@ -59,7 +59,7 @@ ROOT_URLCONF = 'datacollection.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['/home/rushikesh/Documents/spring 2k18/Machine Learning/django_project/datacollection/kartik/templates/kartik'],
+        'DIRS': ['/home/ec2-user/MemeRecommendor/datacollection/kartik/templates/kartik'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
