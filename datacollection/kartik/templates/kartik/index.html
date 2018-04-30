@@ -1,0 +1,18 @@
+
+<h1>MEME"S</h1>
+
+
+{% csrf_token %}
+
+<form action="update_data/" method="post">
+{% csrf_token %}
+    <img src={{ random_int.0.1 }} width="500px" height="500px"  >
+          <input type="text" name='1' width="2vw"></input>
+          <input type="hidden" name="meme_no_1" value={{random_int.0.0}}></input>
+     <img src={{ random_int.1.1 }} width="500px" height="500px" >
+          <input type="text" name='2' width="2vw"></input>
+          <input type="hidden" name="meme_no_2" value={{random_int.1.0}}></input>
+
+   <input type="submit" value="Submit">
+</form>
+
