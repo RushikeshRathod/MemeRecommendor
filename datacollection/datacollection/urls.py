@@ -20,5 +20,5 @@ from django.contrib import admin
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^rushikesh/',include('rushikesh.urls')),
-    url(r'^kartik/',include('kartik.urls')),
+    url(r'^void/',include('kartik.urls')),
 ]
